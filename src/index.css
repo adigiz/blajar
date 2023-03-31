@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,300");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700");
 
 html {
   scroll-behavior: smooth;
@@ -11,14 +11,14 @@ body {
 
 .nav {
   display: flex;
-  padding: 1rem 9.375rem 1rem 9.375rem;
+  padding: 0rem 9.375rem 0rem 9.375rem;
   align-items: center;
   justify-content: space-between;
   border-bottom: 0.063rem solid #e5e5e5;
 }
 
 .nav img {
-  width: 3rem;
+  width: 4rem;
   height: auto;
 }
 
@@ -34,10 +34,118 @@ body {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1rem;
   color: black;
   cursor: pointer;
   text-decoration: none;
   transition: 200ms;
+}
+
+.nav__item > button {
+  margin: 0 0 0 0;
+  padding: 0.5rem 1.5rem;
+  background: #be7143;
+  border-radius: 0.275rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.688rem;
+  color: #ffffff;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 9.375rem;
+}
+
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 29rem;
+}
+
+.hero__title > h1 {
+  margin: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  color: black;
+}
+
+.hero__title > strong {
+  font-weight: 600;
+}
+
+.hero__title > p {
+  margin: 0.75rem 0 0 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.68rem;
+  color: #707070;
+}
+
+.hero__title > button {
+  margin: 1.5rem 0 0 0;
+  padding: 1rem 3.75rem;
+  background: #be7143;
+  border-radius: 0.5rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+  color: #ffffff;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.hero__title > button:hover {
+  opacity: 0.8;
+  transition: 200ms;
+}
+
+.hero__image {
+  margin-left: 2rem;
+}
+
+.hero__image > span::before {
+  content: "";
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  margin-top: 26rem;
+  margin-left: -28rem;
+  border-radius: 0.5rem;
+  background-color: #be7143;
+  z-index: -1;
+}
+
+.hero__image::before {
+  content: "";
+  width: 25rem;
+  height: 30rem;
+  position: absolute;
+  margin-top: 3rem;
+  margin-left: 2.875rem;
+  border: 0.063rem solid #be7143;
+  border-style: dashed;
+  border-radius: 1rem;
+  z-index: -1;
 }
