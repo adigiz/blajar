@@ -34,7 +34,7 @@ body {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   line-height: 1rem;
   color: black;
   cursor: pointer;
@@ -50,7 +50,7 @@ body {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   line-height: 1.688rem;
   color: #ffffff;
   outline: 0;
@@ -101,13 +101,13 @@ body {
 
 .hero__title > button {
   margin: 1.5rem 0 0 0;
-  padding: 1rem 3.75rem;
+  padding: 1rem 3rem;
   background: #be7143;
   border-radius: 0.5rem;
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 500;
-  font-size: 1.125rem;
+  font-weight: 600;
+  font-size: 1rem;
   line-height: 1.688rem;
   color: #ffffff;
   outline: 0;
